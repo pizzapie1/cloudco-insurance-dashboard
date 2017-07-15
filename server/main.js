@@ -53,14 +53,14 @@ app.use(convert(historyApiFallback({
 // ------------------------------------
 // Apply Webpack HMR Middleware
 // ------------------------------------
-if (config.env === 'development') {
-  const compiler = webpack(webpackConfig);
+//if (config.env === 'development') {
+// const compiler = webpack(webpackConfig);
 
   // Enable webpack-dev and webpack-hot middleware
-  const { publicPath } = webpackConfig.output;
+  //const { publicPath } = webpackConfig.output;
 
-  app.use(webpackDevMiddleware(compiler, publicPath));
-  app.use(webpackHMRMiddleware(compiler));
+ // app.use(webpackDevMiddleware(compiler, publicPath));
+  //app.use(webpackHMRMiddleware(compiler));
 
   // Serve static assets from ~/src/static since Webpack is unaware of
   // these files. This middleware doesn't need to be enabled outside
