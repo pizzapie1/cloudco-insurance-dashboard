@@ -86,7 +86,6 @@
     "url": "git+https://github.com/pizzapie1/cloudco-insurance-dashboard.git"
   },
   "author": "Support <support@conciergedevelopment.com> (http://conciergedevelopment.com)",
-  "license": "Apache-2.0",
   "dependencies": {
     "rimraf": "^2.5.1",
     "babel-cli": "^6.5.1",
