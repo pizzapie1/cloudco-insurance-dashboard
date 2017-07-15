@@ -30,7 +30,7 @@ const config = {
   // ----------------------------------
   server_host : 'localip', // use string 'localhost' to prevent exposure on local network
   server_port : process.env.PORT || process.env.PORT,
-  socket_url  : process.env.SOCKET_URL || 'https://adinsurance-toolchain-20170714194415854-webui.mybluemix.net/',
+  socket_url  : process.env.SOCKET_URL || 'adinsurance-toolchain-20170714194415854-webui.mybluemix.net/',
 
   // ----------------------------------
   // Compiler Configuration
