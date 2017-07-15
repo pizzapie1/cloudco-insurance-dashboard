@@ -1,7 +1,7 @@
 {
-  "name": "insurance-bot-dashboard",
+  "name": "dashboard",
   "version": "0.1.0",
-  "description": "Insurance Bot Admin Dashboard",
+  "description": "DESC Bot Admin Dashboard",
   "main": "index.js",
   "engines": {
     "node": "6.7.0",
@@ -83,12 +83,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IBM-Bluemix/insurance-bot-dashboard.git"
+    "url": "git+https://github.com/pizzapie1/cloudco-insurance-dashboard.git"
   },
-  "author": "Colby Williams <colbycheeze@us.ibm.com> (http://colbycheeze.com)",
+  "author": "Support <support@conciergedevelopment.com> (http://conciergedevelopment.com)",
   "license": "Apache-2.0",
   "dependencies": {
-    " rimraf": "^2.5.1",
+    "rimraf": "^2.5.1",
     "babel-cli": "^6.5.1",
     "babel-core": "^6.3.17",
     "babel-loader": "^6.2.0",
@@ -101,7 +101,6 @@
     "babel-register": "^6.11.6",
     "babel-runtime": "^6.11.6",
     "better-npm-run": "0.0.10",
-    "cf-deployment-tracker-client": "*",
     "cfenv": "^1.0.3",
     "classnames": "^2.2.5",
     "cloudant": "^1.6.2",
