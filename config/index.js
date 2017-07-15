@@ -28,8 +28,8 @@ const config = {
   // ----------------------------------
   // Server Configuration
   // ----------------------------------
-  server_host : 'localhost', // use string 'localhost' to prevent exposure on local network
-  server_port : process.env.PORT || 3000,
+  server_host : 'localip', // use string 'localhost' to prevent exposure on local network
+  server_port : process.env.PORT || process.env.PORT,
   socket_url  : process.env.SOCKET_URL || 'https://adinsurance-toolchain-20170714194415854-webui.mybluemix.net/',
 
   // ----------------------------------
