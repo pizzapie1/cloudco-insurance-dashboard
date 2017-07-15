@@ -1,7 +1,7 @@
 ---
 applications:
 - name: insurance-bot-dashboard
-  host: insurance-bot-dashboard
+  host: desc-bot-dashboard
   memory: 256M
   services:
   - insurance-bot-db
